@@ -26,3 +26,5 @@ class Bot(GoslingAgent):
         if closest_boost is not None:
             self.set_intent(goto(closest_boost.location))
             return
+
+# Testing
